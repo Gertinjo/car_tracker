@@ -43,6 +43,7 @@ $vehicles = $stmt->fetchAll();
       <a href="vehicles.php" class="bg-gray-700"><i class="fas fa-car"></i> Vehicles</a>
       <a href="service_logs.php"><i class="fas fa-tools"></i> Service Logs</a>
       <a href="reminders.php"><i class="fas fa-bell"></i> Reminders</a>
+      <a href="car_models.php"><i class="fas fa-car"></i> Car Models</a>
       <a href="logout.php"><i class="fas fa-sign-out-alt"></i> Log Out</a>
     </nav>
   </aside>

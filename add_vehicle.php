@@ -10,6 +10,8 @@ if (empty($_SESSION['user_id'])) {
     exit;
 }
 
+
+
 $errors = [];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

@@ -3,6 +3,8 @@
 
 
 
+
+
 require __DIR__ . '/config.php';
 
 // Redirect if not logged in
@@ -52,6 +54,7 @@ if ($vehicle_id) {
       <a href="vehicles.php">Vehicles</a>
       <a href="service_logs.php" class="bg-gray-700">Service Logs</a>
       <a href="reminders.php">Reminders</a>
+      <a href="car_models.php">Car Models</a>
       <a href="logout.php">Log Out</a>
     </nav>
   </aside>

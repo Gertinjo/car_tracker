@@ -17,6 +17,7 @@ if ($vehicle_id < 1) {
     exit;
 }
 
+
 // 3) Check ownership
 $stmt = $pdo->prepare('SELECT make,model FROM vehicles WHERE id = ? AND user_id = ?');
 $stmt->execute([$vehicle_id, $_SESSION['user_id']]);

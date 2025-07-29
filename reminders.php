@@ -3,6 +3,8 @@
 
 
 
+
+
 require __DIR__ . '/config.php';
 
 // 1) Redirect if not logged in
@@ -71,6 +73,7 @@ foreach ($vehicles as $v) {
       <a href="vehicles.php">Vehicles</a>
       <a href="service_logs.php">Service Logs</a>
       <a href="reminders.php" class="bg-gray-700">Reminders</a>
+      <a href="car_models.php">Car Models</a>
       <a href="logout.php">Log Out</a>
     </nav>
   </aside>
